@@ -1,6 +1,7 @@
 .title {
   font-weight: 300 !important;
   font-size: 35px;
+  text-align: left;
 }
 
 .bold {
@@ -19,3 +20,14 @@
   left:0;
   width:100%;
 }
+
+h3 {
+  color: #018246;
+}
+
+@media (max-width: 576px) { 
+  body {
+    text-align: center;
+  }
+}
+
